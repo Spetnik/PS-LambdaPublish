@@ -1,5 +1,3 @@
-[![NPM](https://nodei.co/npm/url-mgr.png)](https://npmjs.org/package/url-mgr)
-
 # PS-LambdaPublish
 Quick PowerShell Utility for publishing to AWS Lambda
 
