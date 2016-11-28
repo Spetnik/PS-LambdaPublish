@@ -1,5 +1,5 @@
 param (
-	[string]$name,
+	[string]$name = (Split-Path (pwd) -Leaf),
 	[string]$lambda
 )
 function ZipFiles( $zipfilename, $sourcedir )
