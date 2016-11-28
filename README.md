@@ -12,9 +12,12 @@ The Lambda function must already be created for this to work.
 ### Parameters
 | Name  | Description |
 | --- | --- |
-| -name | This will be the name of the zip file (e.g. *-name myfunc* will result in *myfunc.zip*) |
+| -name (optional) | Name of the output zip file (e.g. *-name myfunc* will result in *myfunc.zip*) - defaults to folder name |
 | -lambda | Name of the AWS Lambda function |
-### Example
+### Examples
+```Powershell
+PS> lambda-push -lambda myfuncDEV
+```
 ```Powershell
 PS> lambda-push -name myfuncname -lambda myfuncDEV
 ```
