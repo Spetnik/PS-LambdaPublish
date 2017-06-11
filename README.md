@@ -3,7 +3,7 @@ Quick PowerShell Utility for publishing to AWS Lambda
 
 This utility is intended for quick updating of AWS Lambda functions so that you can quickly update and test while developing.
 
-##Installation
+## Installation
 (This assumes you have the [AWS Tools for Windows PowerShell](https://aws.amazon.com/powershell/) installed
 Add [lambda-push.ps1](./lambda-push.ps1) to a folder which is listed in your PATH environment variable (or create a new one)
 ## Usage
